@@ -6,7 +6,9 @@
  *
  * @error_code: The error codes are the following:
  *
- * (1) => The user does not give any file or more than one file to the programs.
+ * (1) => The user does not give any file
+ *
+ * or more than one file to the programs.
  *
  * (2) => The file provided is not a file that can be opened or reads.
  *
@@ -15,7 +17,7 @@
  * (4) => When the program is unable to malloc more memory.
  *
  * (5) => When the parameter passed to the instruction "push" is not an int.
- * 
+ *
  * (6) => When the stack it empty for pints.
  *
  * (7) => When the stack it empty for pop.
